@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "uksouth"
+        },
+        "vnetAddressPrefix": {
+            "value": "10.0.0.0/16"
+        },
+        "subnet1Prefix": {
+            "value": "10.0.10.0/24"
+        },
+        "subnet2Prefix": {
+            "value": "10.0.20.0/24"
+        },
+        "vnetName": {
+            "value": "Shared-Services-VNET"
+        },
+        "subnet1Name": {
+            "value": "Shared-Services-Sub1"
+        },
+        "subnet2Name": {
+            "value": "Shared-Services-Sub2"
+        }
+
+
+    }
+}
+
+
+
+
